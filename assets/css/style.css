@@ -1,9 +1,22 @@
 body {
     background-color: #000000;
     color: white;
+    text-align: justify;
+    font-weight: 400;
     margin: 0;
     border: 0;
     padding: 0;
 }
+.titulos {
+    text-align: center;
+    font-weight: 400;
+}
 
-.card body 
+hr{
+    border-top: 2px solid;
+    color: teal;
+}
+
+.iconos {
+    color: white;
+}
