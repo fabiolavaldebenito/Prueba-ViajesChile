@@ -5,7 +5,9 @@ body {
     font-weight: 400;
     margin: 0;
     border: 0;
-    padding: 0;
+}
+.navbar {
+    background-color: teal;
 }
 .titulos {
     text-align: center;
@@ -16,7 +18,19 @@ hr{
     border-top: 2px solid;
     color: teal;
 }
-
+.fas {
+    text-align: center;
+}
 .iconos {
+    text-align: right;
+    
+}
+
+a {
     color: white;
+}
+
+.icono {
+margin-right: auto;
+margin-left: auto;
 }
