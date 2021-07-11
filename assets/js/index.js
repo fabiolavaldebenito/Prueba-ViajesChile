@@ -1,14 +1,15 @@
 $(document).ready(function (){
-    $("class nav-link").click(function(event) {
+    // Add smooth scrolling to all links
+    $("a").click(function(event) {
         event.preventDefault();
         
         var gato = this.hash;
 
         $("html").animate(
             { 
-                scrollTop: $(gato).offset().top - 90,
+                scrollTop: $(gato).offset().top - 86,
             },
-            800
+            500
         );
     });
 });

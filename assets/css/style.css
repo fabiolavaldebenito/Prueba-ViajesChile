@@ -7,30 +7,35 @@ body {
     border: 0;
 }
 .navbar {
-    background-color: teal;
+    background-color:#358795;
 }
 .titulos {
     text-align: center;
-    font-weight: 400;
+    font-weight: 300;
+}
+/* para cambiar el por defecto del carrusel
+.carousel, .carousel-inner{
+    height: 43rem;
 }
 
+#carouselExampleIndicators {
+    height: 43rem;
+}
+*/
 hr{
     border-top: 2px solid;
-    color: teal;
+    color: #358795;
 }
 .fas {
-    text-align: center;
+    display: inline-block
 }
+
 .iconos {
-    text-align: right;
+    display: inline-block;
+    align-content: right;
     
 }
 
 a {
     color: white;
-}
-
-.icono {
-margin-right: auto;
-margin-left: auto;
 }
