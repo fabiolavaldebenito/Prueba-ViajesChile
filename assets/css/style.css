@@ -1,17 +1,29 @@
+/*selectores de etiquetas */
 body {
     background-color: #000000;
     color: white;
     text-align: justify;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0;
     border: 0;
 }
+
+a {
+    color: white;
+}
+
+hr{
+    border-top: 2px solid;
+    color:teal;
+}
+
+/*selectores de clases*/
 .navbar {
-    background-color:#358795;
+    background-color:#2d9da8;
+    color: white;
 }
 .titulos {
     text-align: center;
-    font-weight: 300;
 }
 /* para cambiar el por defecto del carrusel
 .carousel, .carousel-inner{
@@ -22,10 +34,7 @@ body {
     height: 43rem;
 }
 */
-hr{
-    border-top: 2px solid;
-    color: #358795;
-}
+
 .fas {
     display: inline-block
 }
@@ -36,6 +45,4 @@ hr{
     
 }
 
-a {
-    color: white;
-}
+

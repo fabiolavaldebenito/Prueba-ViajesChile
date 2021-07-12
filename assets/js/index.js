@@ -9,7 +9,11 @@ $(document).ready(function (){
             { 
                 scrollTop: $(gato).offset().top - 86,
             },
-            500
+            800
         );
     });
 });
+//Para activar el tooltip
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
